@@ -1,5 +1,12 @@
 # Тропка
 
+[![Версия](https://img.shields.io/github/v/release/OlegChe77/tropka?label=%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8F)](https://github.com/OlegChe77/tropka/releases/latest)
+[![Скачиваний](https://img.shields.io/github/downloads/OlegChe77/tropka/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9)](https://github.com/OlegChe77/tropka/releases)
+![Windows 10/11](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D6?logo=windows)
+![Android и iPhone](https://img.shields.io/badge/%D1%82%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD-Android%20%7C%20iPhone-34A853)
+![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)
+[![Помощь проекту](https://img.shields.io/badge/%E2%9D%A4_%D0%9F%D0%BE%D0%BC%D0%BE%D1%89%D1%8C_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%83-dalink.to-E25555)](https://dalink.to/olegche)
+
 Файлы и текст между **компьютером с Windows и телефоном** по домашней Wi-Fi сети. На телефон ничего ставить не нужно — он открывает страницу в обычном браузере, отсканировав QR-код.
 
 - Фото и видео с телефона — сразу в папку «Загрузки\Tropka» на ПК, без кабеля и без пережатия.
@@ -67,6 +74,10 @@ flowchart LR
 - Репозиторий: https://github.com/OlegChe77/tropka
 - Соседний проект **Тропка Онлайн** (телефон↔телефон в браузере): https://olegche77.github.io/tropka-online/
 - ❤️ **Помощь проекту:** https://dalink.to/olegche
+
+## ❤️ Помощь проекту
+
+«Тропка» бесплатная, без рекламы и без сбора данных. Если она вам пригодилась, поддержите автора: **[dalink.to/olegche](https://dalink.to/olegche)**. Это помогает выпускать новые версии.
 
 ## Для разработчиков
 
