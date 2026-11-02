@@ -1,3 +1,7 @@
+<p align="center">
+  <a href="https://dalink.to/olegche"><img src="https://img.shields.io/badge/%E2%9D%A4%20%D0%9F%D0%BE%D0%BC%D0%BE%D1%89%D1%8C%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%83-E25555?style=for-the-badge" height="56" alt="❤ Помощь проекту"></a>
+</p>
+
 # Тропка
 
 [![Версия](https://img.shields.io/github/v/release/OlegChe77/tropka?label=%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8F)](https://github.com/OlegChe77/tropka/releases/latest)
@@ -5,7 +9,6 @@
 ![Windows 10/11](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D6?logo=windows)
 ![Android и iPhone](https://img.shields.io/badge/%D1%82%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD-Android%20%7C%20iPhone-34A853)
 ![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)
-[![Помощь проекту](https://img.shields.io/badge/%E2%9D%A4_%D0%9F%D0%BE%D0%BC%D0%BE%D1%89%D1%8C_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%83-dalink.to-E25555)](https://dalink.to/olegche)
 
 Файлы и текст между **компьютером с Windows и телефоном** по домашней Wi-Fi сети. На телефон ничего ставить не нужно — он открывает страницу в обычном браузере, отсканировав QR-код.
 
