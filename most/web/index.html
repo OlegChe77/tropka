@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>Тропка</title>
+<link rel="stylesheet" href="/static/style.css">
+<script src="/static/app.js" defer></script>
+</head>
+<body>
+
+<main id="login" class="screen" hidden>
+  <div class="card login-card">
+    <div class="brand"><span class="brand-mark" aria-hidden="true"></span>Тропка</div>
+    <p class="muted">Введите PIN, который показан на компьютере</p>
+    <form id="pin-form">
+      <input id="pin" inputmode="numeric" autocomplete="one-time-code" maxlength="6"
+             pattern="[0-9]*" placeholder="000000" aria-label="PIN" required>
+      <button type="submit" class="btn primary">Войти</button>
+    </form>
+    <p id="pin-error" class="error" role="alert"></p>
+  </div>
+</main>
+
+<main id="app" class="screen" hidden>
+  <header class="top">
+    <span class="dot" aria-hidden="true"></span>
+    <div>
+      <div class="title" id="pc-name">Компьютер</div>
+      <div class="muted small" id="status">На связи</div>
+    </div>
+    <button type="button" id="reconnect" class="btn small" hidden>Переподключить</button>
+    <button type="button" id="sound" class="icon-btn" aria-pressed="true" aria-label="Звук включён">
+      <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path class="wave" d="M15.5 9a4 4 0 0 1 0 6M18 6.5a7.5 7.5 0 0 1 0 11" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path class="mute" d="M16 9.5l5 5M21 9.5l-5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+  </header>
+
+  <label class="pick">
+    <input type="file" id="files" multiple>
+    <span class="pick-icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24" width="26" height="26"><path d="M12 19V5M5 12l7-7 7 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </span>
+    <span>
+      <span class="pick-text">Отправить файлы</span>
+      <span class="muted small">Фото, видео, документы</span>
+    </span>
+  </label>
+
+  <form id="text-form" class="composer">
+    <textarea id="text" rows="1" placeholder="Текст или ссылка" aria-label="Текст"></textarea>
+    <button type="submit" class="btn primary" aria-label="Отправить текст">
+      <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+  </form>
+
+  <section>
+    <div class="feed-head">
+      <h2>Лента</h2>
+      <button type="button" id="clear" class="btn small" hidden>Очистить</button>
+    </div>
+    <ul id="list" class="list"></ul>
+    <p id="empty" class="muted small">Здесь появятся файлы и тексты с компьютера и других телефонов</p>
+  </section>
+
+  <p class="note small">Не блокируйте экран и не закрывайте вкладку, пока идёт передача.</p>
+  <p class="note"><a class="btn small" href="https://dalink.to/olegche" target="_blank" rel="noopener">❤ Помощь проекту</a></p>
+  <div id="toast" role="status" aria-live="polite" hidden></div>
+</main>
+
+</body>
+</html>
